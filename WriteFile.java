@@ -5,7 +5,7 @@ public class WriteFile {
     System.out.println("ファイルを開きます");
   }
 
-  public void write() throws Exception {
+  public void write() throws Exception {  // IOException をキャッチして新たな例外をスロー
     try {
       throw new IOException();
     } catch (IOException e) {
